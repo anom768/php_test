@@ -22,7 +22,7 @@ RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html
 
 # Ekspos port 80 untuk Apache
-EXPOSE 80
+EXPOSE 8080
 
 # Perintah untuk menjalankan server
-CMD ["apache2-foreground"]
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "public"]
