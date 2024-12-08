@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "com\\bangkitanomsedhayu\\uqi\\academy\\" : "app"
+            "com\\bangkitanomsedhayu\\uqi\\academy\\" : "src"
         }
     },
     "autoload-dev": {
